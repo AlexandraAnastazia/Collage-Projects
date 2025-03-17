@@ -1,18 +1,16 @@
 {
-  "name": "your-project-name",
+  "name": "mind-sync",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js",   // If your project has a main file like index.js
-    "build": "node build.js",   // If you have a build process (remove if you don't)
-    "test": "echo \"Error: no test specified\" && exit 1",  // You can update this if you have tests
-    "eject": "echo \"Error: no eject script defined\" && exit 1"  // Remove if you're not using eject
+    "start": "node index.js",
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "echo \"Error: no eject script defined\" && exit 1"
   },
   "dependencies": {
-    // Add any libraries you're using for your project, e.g., express, axios, etc.
+    "express": "^4.17.1"
   },
-  "devDependencies": {
-    // If you use tools like nodemon or webpack, add them here
-  },
+  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
